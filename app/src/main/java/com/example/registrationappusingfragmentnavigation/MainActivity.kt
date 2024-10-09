@@ -59,7 +59,7 @@ class MainActivity : AppCompatActivity() {
     // Open the loading activity and pass the target activity (ProfileListActivity)
     private fun openLoadingActivity() {
         val intent = Intent(this, LoadingActivity::class.java)
-        intent.putExtra("TARGET_ACTIVITY", "com.example.userprofileregistration.ProfileListActivity")
+        intent.putExtra("TARGET_ACTIVITY", "com.example.registrationappusingfragmentnavigation.ProfileListActivity")
         startActivity(intent)
         // Do not finish MainActivity here to keep it in the back stack
     }
